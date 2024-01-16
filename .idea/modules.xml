@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JavaAdvancedModulo4.iml" filepath="$PROJECT_DIR$/.idea/JavaAdvancedModulo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio1-bigDecimal/esercizio1-bigDecimal.iml" filepath="$PROJECT_DIR$/esercizio1-bigDecimal/esercizio1-bigDecimal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio2-TernaryOperator/esercizio2-TernaryOperator.iml" filepath="$PROJECT_DIR$/esercizio2-TernaryOperator/esercizio2-TernaryOperator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio3-TernaryOperator2/esercizio3-TernaryOperator2.iml" filepath="$PROJECT_DIR$/esercizio3-TernaryOperator2/esercizio3-TernaryOperator2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio4-DesignPatterns/esercizio4-DesignPatterns.iml" filepath="$PROJECT_DIR$/esercizio4-DesignPatterns/esercizio4-DesignPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio5-DesignPatterns2/esercizio5-DesignPatterns2.iml" filepath="$PROJECT_DIR$/esercizio5-DesignPatterns2/esercizio5-DesignPatterns2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizio6-SingletonNstatic/esercizio6-SingletonNstatic.iml" filepath="$PROJECT_DIR$/esercizio6-SingletonNstatic/esercizio6-SingletonNstatic.iml" />
+    </modules>
+  </component>
+</project>
