@@ -14,4 +14,4 @@ public class Main {
         user2.setAge(28);
         user2.printUserInfo();
     }
-}
+} 
