@@ -4,8 +4,11 @@
 //Stampa a video il risultato della funzione draw di ogni shape creata
 public class Main {
     public static void main(String[] args) {
-        Shape shape = new ShapeImp();
+        // Creating l'istanza per il factory
+        ShapeFactory shapeFactory = new ShapeFactory();
 
+        // creo un triangolo e uso il factory
+        Shape shape = shapeFactory.createShape(EnumType.TRIANGLE, 6, 8);
         shape.drawShape(EnumType.TRIANGLE, 6, 8);
     }
 }

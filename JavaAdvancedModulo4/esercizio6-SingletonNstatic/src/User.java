@@ -3,11 +3,11 @@ public class User {
     private int age;
     private static User user;
 
-    public static User getUser () {
+    static User getUser () {
         if (user == null) {
             user = new User();
         }else {
-            System.out.println("User exist");
+            System.out.println("il User esiste");
         }
         return user;
     }

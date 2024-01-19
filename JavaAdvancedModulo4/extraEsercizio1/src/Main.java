@@ -1,3 +1,7 @@
+import java.time.OffsetDateTime;
+import java.util.ArrayList;
+import java.util.List;
+
 //Sistema di gestione Eventi: Interface, Polimorfismo, Date, Testing
 //Immagina di dover sviluppare un sistema di gestione degli eventi che tenga traccia di diversi tipi di
 //eventi, come riunioni e promemoria. Il sistema deve consentire di ordinare gli eventi in base alla
@@ -36,5 +40,15 @@
 //interfacce, gestione del tempo con OffsetDateTime e scrittura di test JUnit in un contesto pratico
 public class Main {
     public static void main(String[] args) {
+        Compleanno compleannoEvent = new Compleanno(OffsetDateTime.now(), "Home", 20);
+        Riunione riunioneEvent = new Riunione(OffsetDateTime.now().plusDays(2), "Office", 10);
+
+        List<Evento> eventList = new ArrayList<>();
+        eventList.add(compleannoEvent);
+        eventList.add(riunioneEvent);
+
+        GestioneEventi gestioneEventi = new GestioneEventi();
+        gestioneEventi.printEventInfo(eventList);
     }
 }
+

@@ -7,28 +7,17 @@ public class Rectangle implements Shape {
         this.height = height;
     }
 
-    public double getSide() {
-        return side;
-    }
-
-    public void setSide(double side) {
-        this.side = side;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
+    @Override
     public double area() {
         return side * height;
     }
+
     @Override
     public void drawShape(EnumType type, double side, double height) {
-
+        // implementa drawshape per il triangolo
+        System.out.println("Drawing Rectangle");
     }
+
     @Override
     public String toString() {
         return "Rectangle{ " +

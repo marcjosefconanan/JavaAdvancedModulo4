@@ -1,0 +1,3 @@
+enum AddOnsEnum {
+    CHEESE, TOMATO
+}

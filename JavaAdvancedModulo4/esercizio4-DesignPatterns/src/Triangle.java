@@ -7,31 +7,20 @@ public class Triangle implements Shape {
         this.height = height;
     }
 
-    public double getSide() {
-        return side;
-    }
-
-    public void setSide(double side) {
-        this.side = side;
-    }
-
-    public double getHeight() {
-        return height;
-    }
-
-    public void setHeight(double height) {
-        this.height = height;
-    }
+    @Override
     public double area() {
         return (side * height) / 2;
     }
+
     @Override
     public void drawShape(EnumType type, double side, double height) {
-
+        // Implementation of drawShape for Triangle
+        System.out.println("Drawing Triangle");
     }
+
     @Override
     public String toString() {
-        return "Rectangle{ " +
+        return "Triangle{ " +
                 "side= " + side +
                 ", height= " + height +
                 " }";
